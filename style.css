@@ -1,0 +1,135 @@
+/* START: Hero seccion */
+.hero {
+  background: url(image/hero-opacity.png);
+  background-repeat: no-repeat;
+  /* the image is rendered at the largest size contained within */
+  background-size: cover;
+  text-align: center;
+}
+.hero h2 {
+  color: #152618;
+  display: inline-block;
+  font-size: 80px;
+  margin: 0 auto;
+}
+
+.hero h3 {
+  color: #822308;
+  margin-top: 10px;
+  font-size: 30px;
+}
+#hero_content {
+  padding-top: 250px;
+  padding-bottom: 250px;
+}
+/* END: Hero seccion */
+
+/* -- START: today special -- */
+#ourFood {
+  background-color: #401201;
+  padding: 20px;
+}
+#ourFood h1 {
+  color: #a5a472;
+}
+#mealsContainer {
+  display: flex;
+}
+.imgContainer {
+  border: 4px double #152618;
+}
+.meal img {
+  width: 100%;
+  height: 450px;
+}
+.meal {
+  margin: 10px;
+  border: 4px double #a5a472;
+}
+.meal p,
+ol {
+  text-align: justify;
+  color: #d9bfa9;
+  margin: 5px;
+  padding: 20px;
+}
+.meal li {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 10px;
+}
+.meal h2 {
+  color: #f2a81d;
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+/*--END: End today special */
+
+/* --START: our team--- */
+#team {
+  background-color: #0c2240;
+  text-align: center;
+}
+#team h1 {
+  color: #f2aa6b;
+  margin-top: 30px;
+  margin-bottom: 65px;
+}
+#memberbio,
+h3 {
+  color: #bf4f26;
+}
+#containerStaff {
+  display: flex;
+}
+
+.staff {
+  width: 33%;
+  text-align: center;
+}
+.staffimage img {
+  border-radius: 50%;
+  width: 200px;
+}
+#staff p {
+ 
+  font-size: small;
+  color: #f2884b;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+/* --END: Our team */
+
+/* --START: Reserve */
+
+#follow,
+h2 {
+  
+  text-align: center;
+  color: #822308;
+  font-size: 60px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+#follow,
+p {
+  font-family: 'Times New Roman', Times, serif;
+  color: #ffe5c4;
+  text-align: center;
+  padding: 50px 50px;
+  font-size: medium;
+}
+
+/* --END: reserve */
+
+/* --START:Email */
+
+form {
+  text-align: center;
+}
+input {
+  width: 200px;
+}
+
+/* --END: Email */

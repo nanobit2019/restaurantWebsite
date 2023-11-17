@@ -1,0 +1,31 @@
+/* START: Drink */
+#drinks {
+  text-align: center;
+}
+.imgContainer img {
+  border-radius: 40px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 30%;
+}
+#listsContainer {
+  margin: 0 20% 0 20%;
+}
+.beverage {
+  padding: 5%;
+  border: #152618;
+  border-width: 4px;
+  border-style: double;
+}
+
+.beverage h2 {
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+}
+#beverage p {
+  font-size: 20px;
+  padding: 10px 500px;
+}
+/* END: Drink */

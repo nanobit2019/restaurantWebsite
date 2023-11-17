@@ -1,0 +1,26 @@
+header css
+
+/* START: Header styles */
+.header {
+  background-color: #152618;
+  padding: 10px;
+  margin: 10px;
+}
+#logo {
+  height: 100px;
+  width: 200px;
+  /* fits all the kids inside the container */
+  overflow: hidden;
+  float: left;
+}
+
+#logo img {
+  width: 60%;
+  height: 75%;
+  border-radius: 20px;
+  border-width: 2px;
+  border-style: double;
+  border-color: #a6916a;
+}
+/* END: Header styles */
+
